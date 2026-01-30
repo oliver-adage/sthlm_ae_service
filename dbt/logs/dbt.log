@@ -1,0 +1,32 @@
+[0m11:15:39.380950 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AF3114A270>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AF31E59810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AF3365BED0>]}
+
+
+============================== 11:15:39.795487 | 6aa35bfe-d890-40dc-a589-12922da02b17 ==============================
+[0m11:15:39.795487 [info ] [MainThread]: Running with dbt=1.11.2
+[0m11:15:39.797431 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\OliverEngist\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt init sthlm_ae_service', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m11:15:41.131337 [debug] [MainThread]: Starter project path: C:\Users\OliverEngist\OneDrive - Influence AB\Dokument\sthlm-ae-service\.venv\Lib\site-packages\dbt\include\starter_project
+[0m11:15:41.207735 [info ] [MainThread]: 
+Your new dbt project "sthlm_ae_service" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m11:15:41.209527 [info ] [MainThread]: Setting up your profile.
+[0m11:16:49.602883 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m11:16:49.604058 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m11:16:49.604745 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m11:36:55.306979 [info ] [MainThread]: Profile sthlm_ae_service written to C:\Users\OliverEngist\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m11:36:55.313109 [debug] [MainThread]: Command `dbt init` succeeded at 11:36:55.312506 after 1276.35 seconds
+[0m11:36:55.314651 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AF338042B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AF37758290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AF54D7FF00>]}
+[0m11:36:55.315694 [debug] [MainThread]: Flushing usage events
+[0m11:36:56.216832 [debug] [MainThread]: An error was encountered while trying to flush usage events
