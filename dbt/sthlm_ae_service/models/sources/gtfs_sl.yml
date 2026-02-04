@@ -1,0 +1,10 @@
+version: 2
+sources:
+  - name: gtfs_sl
+    schema: dev_sthlm_service_raw
+    tables:
+      - name: sl_stops_raw
+      - name: sl_routes_raw
+      - name: sl_trips_raw
+      - name: sl_stop_times_raw
+      - name: sl_calendar_dates_raw
